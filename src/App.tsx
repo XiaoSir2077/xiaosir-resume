@@ -7,6 +7,7 @@ import SkillsSection from './components/SkillsSection';
 import ExperienceSection from './components/ExperienceSection';
 import ProjectsSection from './components/ProjectsSection';
 import PortfolioSection from './components/PortfolioSection';
+import FeishuDocsBanner from './components/FeishuDocsBanner';
 import ContactSection from './components/ContactSection';
 
 export default function App() {
@@ -212,6 +213,7 @@ export default function App() {
         <ExperienceSection />
         <ProjectsSection />
         <PortfolioSection />
+        <FeishuDocsBanner />
         <div id="contact">
           <ContactSection />
         </div>
